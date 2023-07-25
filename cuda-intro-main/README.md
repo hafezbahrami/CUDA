@@ -35,6 +35,12 @@ More information about grid-stride loops can be found here: https://developer.nv
 ## Compiling, Running, & Benchmarking
 Now that you have the cuda toolkit installed, you can compile, run, and benchmark the code
 
+For debugging, you might want to install the gdb into your Linux machine:
+
+```
+sudo apt-get install gdb
+```
+
 ### Single threaded c++
 Compile:
 ```

@@ -15,6 +15,8 @@ int main(void)
 {
     int N = 1<<20; // 1M elements
 
+    std::cout << "N: " << N << std::endl;
+
     float *x = new float[N];
     float *y = new float[N];
 
