@@ -3,9 +3,11 @@
 __pycache__
 .vscode
 *.exe
+*.out
 
 add
 dynamic_alloc_in_c
+c_debugging
 
 # Environments
 env/

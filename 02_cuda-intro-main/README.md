@@ -74,18 +74,18 @@ Benchmark and profile using Nvidia's profiling tool:
 nvprof ./add_cuda
 ```
 
-### test.c
+### dymaic_alloc_in_c.c
 This is simple c program to see what CPU is used for a simple print command.
 We can either debug it, or do it through commadn line.
 
 For the command line:
-Below, creates the exe file, called test.out.
+Below, creates the exe file, called dymaic_alloc_in_c.out.
 ```
-gcc ./02_cuda-intro-main/test.c
+gcc ./02_cuda-intro-main/dymaic_alloc_in_c.c
 ```
 
 To run the exe file, simply we call it:
 ```
-./a.out
+./dymaic_alloc_in_c.out
 ```
 
