@@ -40,6 +40,7 @@ For debugging, you might want to install the gdb into your Linux machine:
 ```
 sudo apt-get install gdb
 ```
+Also, we need the C/C++ to be downloded/added into VScode.
 
 ### Single threaded c++
 Compile:
@@ -72,3 +73,19 @@ Benchmark and profile using Nvidia's profiling tool:
 ```
 nvprof ./add_cuda
 ```
+
+### test.c
+This is simple c program to see what CPU is used for a simple print command.
+We can either debug it, or do it through commadn line.
+
+For the command line:
+Below, creates the exe file, called test.out.
+```
+gcc ./02_cuda-intro-main/test.c
+```
+
+To run the exe file, simply we call it:
+```
+./a.out
+```
+

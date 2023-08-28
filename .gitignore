@@ -1,0 +1,12 @@
+# Pycharm
+.idea/
+__pycache__
+.vscode
+*.exe
+
+add
+dynamic_alloc_in_c
+
+# Environments
+env/
+venv/
